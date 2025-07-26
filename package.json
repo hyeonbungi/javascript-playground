@@ -5,14 +5,13 @@
   "description": "",
   "main": "./src/main.js",
   "scripts": {
-    "dev": "nodemon ./src/main.js",
-    "check": "biome check --write"
+    "dev": "nodemon ./src/main.js"
   },
   "author": "hyeonbungi <kimhyeonbung@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@10.7.0",
+  "packageManager": "pnpm@10.13.1",
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
   }
 }
